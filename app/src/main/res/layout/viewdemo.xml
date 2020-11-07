@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:attrs_ViewDemo="http://schemas.android.com/apk/res/com.example.my"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ResAuto">
+
+    <com.example.my.Viewdemo
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        attrs_ViewDemo:yangkang_text="@string/dd"
+        android:text="dkskf"
+        android:textColor="#000000"
+        >
+
+    </com.example.my.Viewdemo>
+
+</LinearLayout>
